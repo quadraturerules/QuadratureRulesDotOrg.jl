@@ -1,7 +1,7 @@
 name = "QuadratureRulesDotOrg"
 uuid = "3da39775-d94e-428b-a709-24e9ab7fe27d"
 authors = ["Matthew Scroggs"]
-version = "1.0.0-DEV"
+version = "0.7.3"
 
 [compat]
 julia = "1.6.7"
