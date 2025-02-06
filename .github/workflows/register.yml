@@ -1,4 +1,4 @@
-name: @JuliaRegistrator
+name: "@JuliaRegistrator"
 on:
   push:
     branches:
@@ -13,5 +13,6 @@ jobs:
     - name: Comment @JuliaRegistrator register()
       uses: peter-evans/commit-comment@v3
       with:
-        body: @JuliaRegistrator register()
+        body: testing
+        # body: "@JuliaRegistrator register()"
         reactions: rocket
