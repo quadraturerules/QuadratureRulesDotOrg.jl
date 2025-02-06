@@ -1,0 +1,17 @@
+name: @JuliaRegistrator
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  register:
+    name: register()
+    runs-on: ubuntu-latest
+    steps:
+    - uses: checkout@v4
+    - name: Comment @JuliaRegistrator register()
+      uses: peter-evans/commit-comment@v3
+      with:
+        body: @JuliaRegistrator register()
+        reactions: rocket
