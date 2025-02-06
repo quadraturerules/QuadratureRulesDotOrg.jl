@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
 jobs:
   register:
+    permissions:
+      contents: read
     name: register()
     runs-on: ubuntu-latest
     steps:
