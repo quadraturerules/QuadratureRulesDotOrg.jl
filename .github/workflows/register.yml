@@ -7,7 +7,7 @@ on:
 jobs:
   register:
     permissions:
-      contents: read
+      contents: write
     name: register()
     runs-on: ubuntu-latest
     steps:
