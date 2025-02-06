@@ -15,6 +15,5 @@ jobs:
     - name: Comment @JuliaRegistrator register()
       uses: peter-evans/commit-comment@v3
       with:
-        body: testing
-        # body: "@JuliaRegistrator register()"
+        body: "@JuliaRegistrator register()"
         reactions: rocket
